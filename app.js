@@ -48,6 +48,7 @@ function sortearAmigo() {
     // Validar si la lista está vacía
     //nos aseguramos buscando una igualdad estricta
     if (listaAmigos.length === 0) {
+        asignarTextoElemento('h1', 'Amigo Secreto');
         asignarTextoElemento('#resultado', "Lista de nombres vacía.");
         alert("Añada a sus amigos antes del sorteo");
         return;
